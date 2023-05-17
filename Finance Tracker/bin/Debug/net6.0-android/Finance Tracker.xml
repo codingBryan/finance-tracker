@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Finance Tracker</name>
+    </assembly>
+    <members>
+        <member name="T:Finance_Tracker.ViewModels.LoginViewModel">
+            <inheritdoc/>
+        </member>
+        <member name="F:Finance_Tracker.ViewModels.LoginViewModel.goToSignUpCommand">
+            <summary>The backing field for <see cref="P:Finance_Tracker.ViewModels.LoginViewModel.GoToSignUpCommand"/>.</summary>
+        </member>
+        <member name="P:Finance_Tracker.ViewModels.LoginViewModel.GoToSignUpCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:Finance_Tracker.ViewModels.LoginViewModel.GoToSignUp"/>.</summary>
+        </member>
+        <member name="T:Finance_Tracker.ViewModels.MainPageViewModel">
+            <inheritdoc/>
+        </member>
+        <member name="F:Finance_Tracker.ViewModels.MainPageViewModel.goToLoginCommand">
+            <summary>The backing field for <see cref="P:Finance_Tracker.ViewModels.MainPageViewModel.GoToLoginCommand"/>.</summary>
+        </member>
+        <member name="P:Finance_Tracker.ViewModels.MainPageViewModel.GoToLoginCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:Finance_Tracker.ViewModels.MainPageViewModel.GoToLogin"/>.</summary>
+        </member>
+        <member name="T:Finance_Tracker.ViewModels.SignUpViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="F:Finance_Tracker.ViewModels.SignUpViewModel.goToLoginCommand">
+            <summary>The backing field for <see cref="P:Finance_Tracker.ViewModels.SignUpViewModel.GoToLoginCommand"/>.</summary>
+        </member>
+        <member name="P:Finance_Tracker.ViewModels.SignUpViewModel.GoToLoginCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:Finance_Tracker.ViewModels.SignUpViewModel.GoToLogin"/>.</summary>
+        </member>
+        <member name="F:Finance_Tracker.ViewModels.SignUpViewModel.registerCommand">
+            <summary>The backing field for <see cref="P:Finance_Tracker.ViewModels.SignUpViewModel.RegisterCommand"/>.</summary>
+        </member>
+        <member name="P:Finance_Tracker.ViewModels.SignUpViewModel.RegisterCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:Finance_Tracker.ViewModels.SignUpViewModel.Register(Finance_Tracker.Models.User)"/>.</summary>
+        </member>
+    </members>
+</doc>

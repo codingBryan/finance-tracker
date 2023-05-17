@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="Finance_Tracker.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:Finance_Tracker"
+    xmlns:views="clr-namespace:Finance_Tracker.Views"
+    Shell.FlyoutBehavior="Disabled">
+
+    <ShellContent
+        Shell.NavBarIsVisible="False"
+        Title="Home"
+        ContentTemplate="{DataTemplate local:MainPage}"
+        Route="MainPage" />
+    <ShellContent
+        Shell.TabBarIsVisible="False"
+        ContentTemplate="{DataTemplate views:LoginView}"
+        Route="LoginView" />
+    
+    <ShellContent
+        Shell.TabBarIsVisible="False"
+        ContentTemplate="{DataTemplate views:SignUpView}"
+        Route="LoginView" />
+
+</Shell>

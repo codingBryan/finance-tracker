@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Finance_Tracker.MainPage"
+             BackgroundImageSource="background.jpg"
+             xmlns:viewModel="clr-namespace:Finance_Tracker.ViewModels"
+             x:DataType="viewModel:MainPageViewModel">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style TargetType="Button" x:Key="btnStyle">
+                <Setter Property="WidthRequest" Value="300"/>
+                <Setter Property="HeightRequest" Value="70"/>
+                <Setter Property="BackgroundColor" Value="White"/>
+                <Setter Property="TextColor" Value="Black"/>
+                <Setter Property="CornerRadius" Value="30"/>
+                <Setter Property="VerticalOptions" Value="Center"/>
+                <Setter Property="HorizontalOptions" Value="Center"/>
+                <Setter Property="FontSize" Value="25"/>
+                <Setter Property="FontAttributes" Value="Bold"/>
+            </Style>
+            <Style TargetType="Label" x:Key="textLargeStyle">
+                <Setter Property="TextColor" Value="White"/>
+                <Setter Property="FontSize" Value="40"/>
+            </Style>
+            <Style TargetType="Label" x:Key="textMediumStyle">
+                <Setter Property="TextColor" Value="White"/>
+                <Setter Property="FontSize" Value="23"/>
+            </Style>
+            <Style TargetType="Label" x:Key="textsmallStyle">
+                <Setter Property="TextColor" Value="White"/>
+                <Setter Property="FontSize" Value="16"/>
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <Grid RowDefinitions="500, 300">
+        <Grid BackgroundColor="Black"
+              Grid.RowSpan="2"
+              Opacity="0.4"/>
+        <Grid>
+            <VerticalStackLayout VerticalOptions="End"
+                                 Padding="15">
+                <Label Text="Best Way to Track your money"
+                       Style="{StaticResource textLargeStyle}"/>
+                <Label Text="Control and track what you spend your money on"
+                       Style="{StaticResource textMediumStyle}"/>
+            </VerticalStackLayout>
+        </Grid>
+       
+        <Grid Grid.Row="1">
+            <Button Text="Get started"
+                    Style="{StaticResource btnStyle}"
+                    Command="{Binding GoToLoginCommand}"/>
+
+        </Grid>
+        
+
+    </Grid>
+
+</ContentPage>

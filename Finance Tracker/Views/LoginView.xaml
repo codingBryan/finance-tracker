@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Finance_Tracker.Views.LoginView"
+             xmlns:viewModel="clr-namespace:Finance_Tracker.ViewModels"
+             x:DataType="viewModel:LoginViewModel">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style TargetType="Label" x:Key="largeText">
+                <Setter Property="FontSize" Value="40"/>
+                <Setter Property="FontAttributes" Value="Bold"/>
+            </Style>
+            <Style TargetType="Label" x:Key="mediumText">
+                <Setter Property="FontSize" Value="18"/>
+            </Style>
+            <Style TargetType="Label" x:Key="smallText">
+                <Setter Property="FontSize" Value="14"/>
+            </Style>
+            <Style TargetType="Editor" x:Key="editor">
+                <Setter Property="MaxLength" Value="300"/>
+                <Setter Property="FontSize" Value="Medium"/>
+                <Setter Property="Margin" Value="15,10,0,0"/>
+                
+            </Style>
+            <Style TargetType="Frame" x:Key="inputFrame">
+                <Setter Property="CornerRadius" Value="24"/>
+                <Setter Property="HeightRequest" Value="48"/>
+                <Setter Property="WidthRequest" Value="300"/>
+                <Setter Property="Margin" Value="0,10"/>
+                <Setter Property="Padding" Value="0"/>
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <Grid Padding="10">
+        <Grid HeightRequest="600"
+              WidthRequest="400"
+              BackgroundColor="White"
+              Padding="20">
+            <VerticalStackLayout Spacing="20"
+                                 HorizontalOptions="Center"
+                                 VerticalOptions="Center">
+                <Label  Style="{StaticResource largeText}">Login</Label>
+                <VerticalStackLayout>
+                    <Label Text="Username"
+                           Style="{StaticResource mediumText}"/>
+                    <Frame Style="{StaticResource inputFrame}">
+                        <Editor Placeholder="Username"
+                                Style="{StaticResource editor}"/>
+                    </Frame>
+                    
+                </VerticalStackLayout>
+                <VerticalStackLayout>
+                    <Label Text="Password"
+                           Style="{StaticResource mediumText}"/>
+                    <Frame Style="{StaticResource inputFrame}">
+                        <Editor Placeholder="Password"
+                                Style="{StaticResource editor}"/>
+                    </Frame>
+                </VerticalStackLayout>
+
+                <Button Text="Login"
+                        WidthRequest="180"/>
+                <Label Text="OR"
+                       HorizontalOptions="Center"/>
+
+                <Button Text="Signup"
+                        WidthRequest="160"
+                        Command="{Binding GoToSignUpCommand}"/>
+
+            </VerticalStackLayout>
+
+            
+
+
+        </Grid>
+    </Grid>
+</ContentPage>

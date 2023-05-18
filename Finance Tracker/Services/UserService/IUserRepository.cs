@@ -9,6 +9,7 @@ namespace Finance_Tracker.Services.UserService
 {
     public interface IUserRepository
     {
-        Task<User> AddUpdateUser(User user);
+        Task<int> Register(User user);
+        Task<User> Login(string username, string password);
     }
 }

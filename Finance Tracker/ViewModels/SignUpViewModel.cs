@@ -1,4 +1,5 @@
-﻿using CommunityToolkit.Mvvm.Input;
+﻿using CommunityToolkit.Mvvm.ComponentModel;
+using CommunityToolkit.Mvvm.Input;
 using Finance_Tracker.Models;
 using Finance_Tracker.Services.UserService;
 using Finance_Tracker.Views;
@@ -13,11 +14,16 @@ namespace Finance_Tracker.ViewModels
 {
     public partial class SignUpViewModel:BaseViewModel
     {
-        protected readonly IUserRepository userService;
-        public SignUpViewModel(IUserRepository userService)
-        {
-            this.userService = userService;
-        }
+        [ObservableProperty]
+        private string username;
+
+        [ObservableProperty]
+        private string email;
+
+        [ObservableProperty]
+        private string password;
+        protected readonly IUserRepository userService = new UserService();
+        
         [RelayCommand]
         async Task GoToLogin() 
         {
@@ -25,16 +31,22 @@ namespace Finance_Tracker.ViewModels
         }
 
         [RelayCommand]
-        async Task Register(User user)
+        async Task Register()
         {
-            User newUser;
+            User newUser = new User()
+            {
+                email = email,
+                username = username,
+                password = password
+            };
             try
             {
-                newUser = await userService.AddUpdateUser(user);
-                Debug.WriteLine(newUser.username);
-            }catch(Exception ex) 
-            {
+                await userService.Register(newUser);
                 await Shell.Current.GoToAsync(nameof(LoginView));
+            }
+            catch(Exception ex) 
+            {
+                
             }
         }
     }

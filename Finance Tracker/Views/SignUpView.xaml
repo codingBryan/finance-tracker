@@ -47,7 +47,7 @@
 
                     <Frame Style="{StaticResource inputFrame}">
                         <Editor Placeholder="email"
-                                x:Name="email"
+                                Text="{Binding Email}"
                                 Style="{StaticResource editor}"/>
                     </Frame>
 
@@ -58,7 +58,7 @@
                     
                     <Frame Style="{StaticResource inputFrame}">
                         <Editor Placeholder="Username"
-                                x:Name="username"
+                                Text="{Binding Username}"
                                 Style="{StaticResource editor}"/>
                     </Frame>
 
@@ -68,7 +68,7 @@
                            Style="{StaticResource smallText}"/>
                     <Frame Style="{StaticResource inputFrame}">
                         <Editor Placeholder="Password"
-                                x:Name="password"
+                                Text="{Binding Password}"
                                 Style="{StaticResource editor}"/>
                     </Frame>
                 </VerticalStackLayout>

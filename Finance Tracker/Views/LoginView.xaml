@@ -45,6 +45,7 @@
                            Style="{StaticResource mediumText}"/>
                     <Frame Style="{StaticResource inputFrame}">
                         <Editor Placeholder="Username"
+                                Text="{Binding Username}"
                                 Style="{StaticResource editor}"/>
                     </Frame>
                     
@@ -54,6 +55,7 @@
                            Style="{StaticResource mediumText}"/>
                     <Frame Style="{StaticResource inputFrame}">
                         <Editor Placeholder="Password"
+                                Text="{Binding Password}"
                                 Style="{StaticResource editor}"/>
                     </Frame>
                 </VerticalStackLayout>

@@ -19,11 +19,12 @@ public static class MauiProgram
 			});
 		builder.Services.AddSingleton<MainPage>();
         builder.Services.AddSingleton<MainPageViewModel>();
-		builder.Services.AddScoped<IUserRepository,UserService>();
         builder.Services.AddTransient<LoginView>();
         builder.Services.AddTransient<LoginViewModel>();
         builder.Services.AddTransient<SignUpView>();
         builder.Services.AddTransient<SignUpViewModel>();
+
+        builder.Services.AddSingleton<UserService>();
 
         return builder.Build();
 	}

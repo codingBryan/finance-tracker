@@ -9,5 +9,6 @@ namespace Finance_Tracker.ViewModels
 {
     public partial class BaseViewModel:ObservableObject
     {
+
     }
 }

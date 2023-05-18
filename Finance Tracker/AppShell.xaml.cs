@@ -1,4 +1,5 @@
-﻿using Finance_Tracker.Views;
+﻿using Finance_Tracker.Models;
+using Finance_Tracker.Views;
 
 namespace Finance_Tracker;
 

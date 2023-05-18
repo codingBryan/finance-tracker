@@ -1,3 +1,11 @@
+Z:\Xamarin Projects\Finance Tracker\Finance Tracker\bin\Debug\net6.0-android\Finance Tracker.runtimeconfig.json
+Z:\Xamarin Projects\Finance Tracker\Finance Tracker\bin\Debug\net6.0-android\Finance Tracker.dll
+Z:\Xamarin Projects\Finance Tracker\Finance Tracker\bin\Debug\net6.0-android\Finance Tracker.pdb
+Z:\Xamarin Projects\Finance Tracker\Finance Tracker\bin\Debug\net6.0-android\com.companyname.finance_tracker.apk
+Z:\Xamarin Projects\Finance Tracker\Finance Tracker\bin\Debug\net6.0-android\com.companyname.finance_tracker.aab
+Z:\Xamarin Projects\Finance Tracker\Finance Tracker\bin\Debug\net6.0-android\com.companyname.finance_tracker-Signed.aab
+Z:\Xamarin Projects\Finance Tracker\Finance Tracker\bin\Debug\net6.0-android\com.companyname.finance_tracker-Signed.apk
+Z:\Xamarin Projects\Finance Tracker\Finance Tracker\bin\Debug\net6.0-android\com.companyname.finance_tracker-Signed.apk.idsig
 Z:\Xamarin Projects\Finance Tracker\Finance Tracker\obj\Debug\net6.0-android\.NETCoreApp,Version=v6.0.AssemblyAttributes.cs
 Z:\Xamarin Projects\Finance Tracker\Finance Tracker\obj\Debug\net6.0-android\build.props
 Z:\Xamarin Projects\Finance Tracker\Finance Tracker\obj\Debug\net6.0-android\adb.props
@@ -45,27 +53,25 @@ Z:\Xamarin Projects\Finance Tracker\Finance Tracker\obj\Debug\net6.0-android\sta
 Z:\Xamarin Projects\Finance Tracker\Finance Tracker\obj\Debug\net6.0-android\res.flag
 Z:\Xamarin Projects\Finance Tracker\Finance Tracker\obj\Debug\net6.0-android\resizetizer\F7B9BBA4792A9F04-files.cache
 Z:\Xamarin Projects\Finance Tracker\Finance Tracker\obj\Debug\net6.0-android\resizetizer\46DA734BA488A62A-files.cache
-Z:\Xamarin Projects\Finance Tracker\Finance Tracker\obj\Debug\net6.0-android\lp\90\jl\files.cache
-Z:\Xamarin Projects\Finance Tracker\Finance Tracker\obj\Debug\net6.0-android\lp\91\jl\files.cache
 Z:\Xamarin Projects\Finance Tracker\Finance Tracker\obj\Debug\net6.0-android\lp\92\jl\files.cache
-Z:\Xamarin Projects\Finance Tracker\Finance Tracker\obj\Debug\net6.0-android\lp\96\jl\files.cache
-Z:\Xamarin Projects\Finance Tracker\Finance Tracker\obj\Debug\net6.0-android\lp\97\jl\files.cache
+Z:\Xamarin Projects\Finance Tracker\Finance Tracker\obj\Debug\net6.0-android\lp\93\jl\files.cache
+Z:\Xamarin Projects\Finance Tracker\Finance Tracker\obj\Debug\net6.0-android\lp\94\jl\files.cache
 Z:\Xamarin Projects\Finance Tracker\Finance Tracker\obj\Debug\net6.0-android\lp\98\jl\files.cache
 Z:\Xamarin Projects\Finance Tracker\Finance Tracker\obj\Debug\net6.0-android\lp\99\jl\files.cache
+Z:\Xamarin Projects\Finance Tracker\Finance Tracker\obj\Debug\net6.0-android\lp\100\jl\files.cache
 Z:\Xamarin Projects\Finance Tracker\Finance Tracker\obj\Debug\net6.0-android\lp\101\jl\files.cache
-Z:\Xamarin Projects\Finance Tracker\Finance Tracker\obj\Debug\net6.0-android\lp\102\jl\files.cache
 Z:\Xamarin Projects\Finance Tracker\Finance Tracker\obj\Debug\net6.0-android\lp\103\jl\files.cache
 Z:\Xamarin Projects\Finance Tracker\Finance Tracker\obj\Debug\net6.0-android\lp\104\jl\files.cache
 Z:\Xamarin Projects\Finance Tracker\Finance Tracker\obj\Debug\net6.0-android\lp\105\jl\files.cache
-Z:\Xamarin Projects\Finance Tracker\Finance Tracker\obj\Debug\net6.0-android\lp\109\jl\files.cache
-Z:\Xamarin Projects\Finance Tracker\Finance Tracker\obj\Debug\net6.0-android\lp\110\jl\files.cache
+Z:\Xamarin Projects\Finance Tracker\Finance Tracker\obj\Debug\net6.0-android\lp\106\jl\files.cache
+Z:\Xamarin Projects\Finance Tracker\Finance Tracker\obj\Debug\net6.0-android\lp\107\jl\files.cache
+Z:\Xamarin Projects\Finance Tracker\Finance Tracker\obj\Debug\net6.0-android\lp\111\jl\files.cache
 Z:\Xamarin Projects\Finance Tracker\Finance Tracker\obj\Debug\net6.0-android\lp\112\jl\files.cache
-Z:\Xamarin Projects\Finance Tracker\Finance Tracker\obj\Debug\net6.0-android\lp\113\jl\files.cache
-Z:\Xamarin Projects\Finance Tracker\Finance Tracker\obj\Debug\net6.0-android\lp\116\jl\files.cache
-Z:\Xamarin Projects\Finance Tracker\Finance Tracker\obj\Debug\net6.0-android\lp\117\jl\files.cache
+Z:\Xamarin Projects\Finance Tracker\Finance Tracker\obj\Debug\net6.0-android\lp\114\jl\files.cache
+Z:\Xamarin Projects\Finance Tracker\Finance Tracker\obj\Debug\net6.0-android\lp\115\jl\files.cache
+Z:\Xamarin Projects\Finance Tracker\Finance Tracker\obj\Debug\net6.0-android\lp\118\jl\files.cache
 Z:\Xamarin Projects\Finance Tracker\Finance Tracker\obj\Debug\net6.0-android\lp\119\jl\files.cache
 Z:\Xamarin Projects\Finance Tracker\Finance Tracker\obj\Debug\net6.0-android\lp\121\jl\files.cache
-Z:\Xamarin Projects\Finance Tracker\Finance Tracker\obj\Debug\net6.0-android\lp\122\jl\files.cache
 Z:\Xamarin Projects\Finance Tracker\Finance Tracker\obj\Debug\net6.0-android\lp\123\jl\files.cache
 Z:\Xamarin Projects\Finance Tracker\Finance Tracker\obj\Debug\net6.0-android\lp\124\jl\files.cache
 Z:\Xamarin Projects\Finance Tracker\Finance Tracker\obj\Debug\net6.0-android\lp\125\jl\files.cache
@@ -73,8 +79,8 @@ Z:\Xamarin Projects\Finance Tracker\Finance Tracker\obj\Debug\net6.0-android\lp\
 Z:\Xamarin Projects\Finance Tracker\Finance Tracker\obj\Debug\net6.0-android\lp\127\jl\files.cache
 Z:\Xamarin Projects\Finance Tracker\Finance Tracker\obj\Debug\net6.0-android\lp\128\jl\files.cache
 Z:\Xamarin Projects\Finance Tracker\Finance Tracker\obj\Debug\net6.0-android\lp\129\jl\files.cache
-Z:\Xamarin Projects\Finance Tracker\Finance Tracker\obj\Debug\net6.0-android\lp\132\jl\files.cache
-Z:\Xamarin Projects\Finance Tracker\Finance Tracker\obj\Debug\net6.0-android\lp\133\jl\files.cache
+Z:\Xamarin Projects\Finance Tracker\Finance Tracker\obj\Debug\net6.0-android\lp\130\jl\files.cache
+Z:\Xamarin Projects\Finance Tracker\Finance Tracker\obj\Debug\net6.0-android\lp\131\jl\files.cache
 Z:\Xamarin Projects\Finance Tracker\Finance Tracker\obj\Debug\net6.0-android\lp\134\jl\files.cache
 Z:\Xamarin Projects\Finance Tracker\Finance Tracker\obj\Debug\net6.0-android\lp\135\jl\files.cache
 Z:\Xamarin Projects\Finance Tracker\Finance Tracker\obj\Debug\net6.0-android\lp\136\jl\files.cache
@@ -84,27 +90,21 @@ Z:\Xamarin Projects\Finance Tracker\Finance Tracker\obj\Debug\net6.0-android\lp\
 Z:\Xamarin Projects\Finance Tracker\Finance Tracker\obj\Debug\net6.0-android\lp\140\jl\files.cache
 Z:\Xamarin Projects\Finance Tracker\Finance Tracker\obj\Debug\net6.0-android\lp\141\jl\files.cache
 Z:\Xamarin Projects\Finance Tracker\Finance Tracker\obj\Debug\net6.0-android\lp\142\jl\files.cache
-Z:\Xamarin Projects\Finance Tracker\Finance Tracker\obj\Debug\net6.0-android\lp\147\jl\files.cache
+Z:\Xamarin Projects\Finance Tracker\Finance Tracker\obj\Debug\net6.0-android\lp\143\jl\files.cache
+Z:\Xamarin Projects\Finance Tracker\Finance Tracker\obj\Debug\net6.0-android\lp\144\jl\files.cache
 Z:\Xamarin Projects\Finance Tracker\Finance Tracker\obj\Debug\net6.0-android\lp\149\jl\files.cache
 Z:\Xamarin Projects\Finance Tracker\Finance Tracker\obj\Debug\net6.0-android\lp\151\jl\files.cache
-Z:\Xamarin Projects\Finance Tracker\Finance Tracker\obj\Debug\net6.0-android\lp\152\jl\files.cache
 Z:\Xamarin Projects\Finance Tracker\Finance Tracker\obj\Debug\net6.0-android\lp\153\jl\files.cache
 Z:\Xamarin Projects\Finance Tracker\Finance Tracker\obj\Debug\net6.0-android\lp\154\jl\files.cache
 Z:\Xamarin Projects\Finance Tracker\Finance Tracker\obj\Debug\net6.0-android\lp\155\jl\files.cache
+Z:\Xamarin Projects\Finance Tracker\Finance Tracker\obj\Debug\net6.0-android\lp\156\jl\files.cache
+Z:\Xamarin Projects\Finance Tracker\Finance Tracker\obj\Debug\net6.0-android\lp\157\jl\files.cache
 Z:\Xamarin Projects\Finance Tracker\Finance Tracker\obj\Debug\net6.0-android\R.txt
 Z:\Xamarin Projects\Finance Tracker\Finance Tracker\obj\Debug\net6.0-android\R.cs.flag
 Z:\Xamarin Projects\Finance Tracker\Finance Tracker\obj\Debug\net6.0-android\Finance Tracker.GeneratedMSBuildEditorConfig.editorconfig
 Z:\Xamarin Projects\Finance Tracker\Finance Tracker\obj\Debug\net6.0-android\Finance Tracker.AssemblyInfoInputs.cache
 Z:\Xamarin Projects\Finance Tracker\Finance Tracker\obj\Debug\net6.0-android\Finance Tracker.AssemblyInfo.cs
 Z:\Xamarin Projects\Finance Tracker\Finance Tracker\obj\Debug\net6.0-android\Finance Tracker.csproj.CoreCompileInputs.cache
-Z:\Xamarin Projects\Finance Tracker\Finance Tracker\bin\Debug\net6.0-android\Finance Tracker.runtimeconfig.json
-Z:\Xamarin Projects\Finance Tracker\Finance Tracker\bin\Debug\net6.0-android\Finance Tracker.dll
-Z:\Xamarin Projects\Finance Tracker\Finance Tracker\bin\Debug\net6.0-android\Finance Tracker.pdb
-Z:\Xamarin Projects\Finance Tracker\Finance Tracker\bin\Debug\net6.0-android\com.companyname.finance_tracker.apk
-Z:\Xamarin Projects\Finance Tracker\Finance Tracker\bin\Debug\net6.0-android\com.companyname.finance_tracker.aab
-Z:\Xamarin Projects\Finance Tracker\Finance Tracker\bin\Debug\net6.0-android\com.companyname.finance_tracker-Signed.aab
-Z:\Xamarin Projects\Finance Tracker\Finance Tracker\bin\Debug\net6.0-android\com.companyname.finance_tracker-Signed.apk
-Z:\Xamarin Projects\Finance Tracker\Finance Tracker\bin\Debug\net6.0-android\com.companyname.finance_tracker-Signed.apk.idsig
 Z:\Xamarin Projects\Finance Tracker\Finance Tracker\obj\Debug\net6.0-android\XamlC.stamp
 Z:\Xamarin Projects\Finance Tracker\Finance Tracker\obj\Debug\net6.0-android\Finance Tracker.dll
 Z:\Xamarin Projects\Finance Tracker\Finance Tracker\obj\Debug\net6.0-android\Finance Tracker.pdb
@@ -155,11 +155,11 @@ Z:\Xamarin Projects\Finance Tracker\Finance Tracker\obj\Debug\net6.0-android\and
 Z:\Xamarin Projects\Finance Tracker\Finance Tracker\obj\Debug\net6.0-android\android\assets\Mono.Android.pdb
 Z:\Xamarin Projects\Finance Tracker\Finance Tracker\obj\Debug\net6.0-android\android\assets\mscorlib.dll
 Z:\Xamarin Projects\Finance Tracker\Finance Tracker\obj\Debug\net6.0-android\android\assets\netstandard.dll
+Z:\Xamarin Projects\Finance Tracker\Finance Tracker\obj\Debug\net6.0-android\android\assets\Newtonsoft.Json.dll
 Z:\Xamarin Projects\Finance Tracker\Finance Tracker\obj\Debug\net6.0-android\android\assets\SQLite-net.dll
 Z:\Xamarin Projects\Finance Tracker\Finance Tracker\obj\Debug\net6.0-android\android\assets\SQLitePCLRaw.batteries_v2.dll
 Z:\Xamarin Projects\Finance Tracker\Finance Tracker\obj\Debug\net6.0-android\android\assets\SQLitePCLRaw.core.dll
 Z:\Xamarin Projects\Finance Tracker\Finance Tracker\obj\Debug\net6.0-android\android\assets\SQLitePCLRaw.lib.e_sqlite3.android.dll
-Z:\Xamarin Projects\Finance Tracker\Finance Tracker\obj\Debug\net6.0-android\android\assets\SQLitePCLRaw.nativelibrary.dll
 Z:\Xamarin Projects\Finance Tracker\Finance Tracker\obj\Debug\net6.0-android\android\assets\SQLitePCLRaw.provider.e_sqlite3.dll
 Z:\Xamarin Projects\Finance Tracker\Finance Tracker\obj\Debug\net6.0-android\android\assets\System.AppContext.dll
 Z:\Xamarin Projects\Finance Tracker\Finance Tracker\obj\Debug\net6.0-android\android\assets\System.Buffers.dll

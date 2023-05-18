@@ -1,0 +1,1 @@
+Z:\Xamarin Projects\Finance Tracker\Finance Tracker\Finance Tracker.csproj;x64

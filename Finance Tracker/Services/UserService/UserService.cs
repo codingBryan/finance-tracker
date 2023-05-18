@@ -6,33 +6,58 @@ namespace Finance_Tracker.Services.UserService
 {
     public class UserService : IUserRepository
     {
-        protected readonly SQLiteAsyncConnection database;
-        public UserService( string dbPath)
+        private SQLiteAsyncConnection database;
+        public UserService()
         {
-            database = new SQLiteAsyncConnection(dbPath);
-            database.CreateTableAsync<User>().Wait();
+
         }
-        public async Task<User> AddUpdateUser(User user)
+
+         async Task Init()
         {
-            User newUser=new();
+            if (database is not null) return;
+            database = new SQLiteAsyncConnection(Constants.DatabasePath,Constants.Flags);
+            var users=await database.CreateTableAsync<User>();
+
+        }
+
+        public async Task<int> Register(User user)
+        {
+            await Init();
+            if(user.Id != 0)
+            {
+                return await database.UpdateAsync(user);
+            }
+
+            return await database.InsertAsync(user);
+            Debug.WriteLine("uSER cREATED");
+
+        }
+
+        public async Task<User> Login(string username, string password)
+        {
+            await Init();
             try
             {
-                if (user.Id > 0)
+                var user = await database.Table<User>().Where(u => u.username == username).FirstOrDefaultAsync();
+                if (user is null)
                 {
-                   await database.UpdateAsync(user);
-                   return await database.FindAsync<User>(user);
+                    throw new Exception("User not found");
+                    return null;
                 }
-                await database.InsertAsync(user);
-                return await database.FindAsync<User>(user);
+                if (user.password==password)
+                {
+                    return user;
+                }
+                else
+                {
+                    throw new Exception("Incorrect password");
+                    return null;
+                }
 
-
-            }
-            catch (Exception ex)
+            }catch (Exception ex) 
             {
-                Debug.WriteLine("Exception: ",ex.Message);
+                Debug.WriteLine(ex.Message);
             }
-            return await database.FindAsync<User>(user);
-
         }
     }
 }
